@@ -1,0 +1,29 @@
+
+
+@media screen and (max-width:540px) and (min-height:560px) and (orientation:portrait) {
+	.link--social {
+	margin:2% 13%;
+	}
+	.link--social:nth-of-type(1) {
+    margin-left: 13.4%;
+	}
+	.link--social:nth-of-type(5) {
+    margin: 2% 10.85% 2% 13.5%;
+	}
+	.link--social:last-of-type {
+	margin-left: 15.75%;
+	}
+}
+@media screen and (max-width: 40em) and (orientation: landscape){
+.pages-nav .pages-nav__item--social {
+width:100%;
+}
+.js .pages-nav__item--small {
+padding:0;
+}
+}
+@media screen and (max-height: 650px) and (orientation: landscape) {
+.js .pages-nav {
+    padding: 1em 9em;
+}
+}

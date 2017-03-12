@@ -1,0 +1,47 @@
+/* line 2, ../sass/desktop.scss */
+.image-scrubber {
+  display: none;
+}
+
+/* line 4, ../sass/desktop.scss */
+.background-video {
+  display: block;
+}
+
+/* line 8, ../sass/desktop.scss */
+#v0 {
+  position: fixed;
+  min-width: 100%;
+  min-height: 100%;
+  /* Setting width & height to auto prevents the browser from stretching or squishing the video */
+  width: auto;
+  height: auto;
+  /* Center the video */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* line 21, ../sass/desktop.scss */
+#set-height {
+  display: block;
+}
+
+/* line 25, ../sass/desktop.scss */
+.test {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  margin-top: 100%;
+  z-index: 3;
+  background: transparent;
+}
+
+@media screen and (orientation: portrait) {
+  /* line 35, ../sass/desktop.scss */
+  img#video {
+    left: 0 !important;
+  }
+}
+
+/*# sourceMappingURL=desktop.css.map */
